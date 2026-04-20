@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Fitness</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- 1. ENCABEZADO -->
+<header class="encabezado">
+    <div class="contenedor encabezado-flex">
+
+        <!-- Checkbox oculto -->
+        <input type="checkbox" id="menu-toggle">
+
+        <!-- Botón hamburguesa -->
+        <label for="menu-toggle" class="hamburguesa">☰</label>
+
+        <h1 class="logo">
+                <img src="logogrisel.png" alt="Grisel Angulo">
+        </h1>   
+
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#certificaciones">Certificaciones</a>
+            <a href="#especialidades">Especialidades</a>
+            <a href="#redes">Redes</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </div>
+</header>
+
+<!-- HERO -->
+<section id="inicio" class="hero">
+    <div class="overlay">
+        <img src="header.webp" alt="fondo">
+    </div>
+
+    <div class="contenido-hero">
+        <div class="contenedor contenedor-hero">
+
+            <div class="lado-izquierdo">
+                <img src="atleta.png" alt="coach" class="img-desktop">
+                <img src="banner1.jpg" alt="coach mobile" class="img-mobile">
+            </div>
+
+            <div class="lado-derecho">
+                <h2>Entrena como un profesional</h2>
+                <p>Transforma tu cuerpo y tu rendimiento</p>
+                <a href="#contacto" class="boton">Contáctame</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="separador1"></div>
+
+<!-- 2. SOBRE MI -->
+<section id="sobre-mi" class="seccion clara">
+    <div class="contenedor sobre-mi-contenido">
+        
+        <div class="texto">
+            <h2 class="titulo">Sobre mí</h2>
+            <p>
+                Soy entrenador especializado en rendimiento físico, fuerza y acondicionamiento.
+                Ayudo a personas a mejorar su salud y rendimiento deportivo.
+            </p>
+        </div>
+
+        <div class="video">
+            <video src="levantamiento.mp4" controls muted></video>
+        </div>
+
+    </div>
+</section>
+
+<div class="separador2"></div>
+
+<!-- 3. EXPERIENCIA PROFESIONAL -->
+<section id="experiencia" class="seccion oscura">
+    <div class="contenedor">
+        <h2 class="titulo">Experiencia Profesional</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+                <div class="img-card" style="background-image: url('aquara.jpg');"></div>
+                <h3>Entrenador Personal</h3>
+                <p>+8 años ayudando atletas y principiantes.</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="img-card" style="background-image: url('hipocampo.jpg');"></div>
+                <h3>Club Deportivo</h3>
+                <p>Preparación física de alto rendimiento.</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="img-card" style="background-image: url('exp3.jpg');"></div>
+                <h3>Competencias</h3>
+                <p>Preparador de atletas de competición.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="separador3"></div>
+
+<!-- 4. CERTIFICACIONES -->
+<section id="certificaciones" class="seccion clara">
+    <div class="contenedor">
+        <h2 class="titulo">Certificaciones y Formaciones</h2>
+
+        <div class="columnas">
+            <div class="bloque">Entrenador Personal Certificado</div>
+            <div class="bloque">Nutrición Deportiva</div>
+            <div class="bloque">Biomecánica Aplicada</div>
+        </div>
+    </div>
+</section>
+
+<div class="separador4"></div>
+
+<!-- 5. ESPECIALIDADES -->
+<section id="especialidades" class="seccion oscura">
+    <div class="contenedor">
+
+        <h2 class="titulo">Especialidades</h2>
+
+        <div class="grid-especialidades">
+
+            <!-- BLOQUE GRANDE -->
+            <div class="especialidad grande">
+                <img src="fuerza.jpg" alt="Fuerza">
+                <div class="contenido-especialidad">
+                    <h3>Fuerza</h3>
+                    <p>Desarrollo de potencia y rendimiento muscular.</p>
+                </div>
+            </div>
+
+            <!-- BLOQUE PEQUEÑO 1 -->
+            <div class="especialidad">
+                <img src="hipertrofia.webp" alt="Hipertrofia">
+                <div class="contenido-especialidad">
+                    <h3>Hipertrofia</h3>
+                    <p>Crecimiento muscular controlado y eficiente.</p>
+                </div>
+            </div>
+
+            <!-- BLOQUE PEQUEÑO 2 -->
+            <div class="especialidad">
+                <img src="funcional.jpg" alt="Cross Training">
+                <div class="contenido-especialidad">
+                    <h3>Cross Training</h3>
+                    <p>Entrenamiento funcional de alta intensidad.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<div class="separador6"></div>
+
+<!-- 7. CONTACTO -->
+<section id="contacto" class="seccion oscura">
+    <div class="contenedor">
+        <h2 class="titulo">Contacto</h2>
+
+        <form class="formulario">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Correo">
+            <textarea placeholder="Mensaje"></textarea>
+            <button class="boton">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-contenido">
+    <p class="footer-texto">© 2026 Tu Marca - Todos los derechos reservados</p>
+
+    <div class="redes">
+      <a href="#" target="_blank" class="icono youtube">YouTube</a>
+      <a href="#" target="_blank" class="icono tiktok">TikTok</a>
+      <a href="#" target="_blank" class="icono instagram">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
